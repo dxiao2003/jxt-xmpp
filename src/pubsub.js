@@ -103,7 +103,7 @@ export default function (JXT) {
         namespace: NS.PUBSUB,
         element: 'affiliation',
         fields: {
-            node: Utils.attribute('node'),
+            jid: Utils.attribute('jid'),
             type: Utils.attribute('affiliation')
         }
     });
